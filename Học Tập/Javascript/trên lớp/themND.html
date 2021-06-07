@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thêm thẻ html</title>
+    <script language="javascript" >
+        function add_element(){
+            var title = document.getElementById('title').value;
+            if (title == ''){
+                alert("Bạn chưa nhập tiêu đề");
+            }
+            else {
+                var html = '<div style="background:red; margin: 5px; padding: 5px; color:#BFF">'+title1+' </div>';
+                document.getElementById('result1').insertAdjacentHTML('afterend', html); //insertAdjacentHTML('afterend', html);-->thêm nội dung vào html
+                var html = '<div style="background:red; margin: 5px; padding: 5px; color:#BFF">'+title2+' </div>';
+                document.getElementById('result2').insertAdjacentHTML('afterend', html);
+                var html = '<div style="background:red; margin: 5px; padding: 5px; color:#BFF">'+title3+' </div>';
+                document.getElementById('result3').insertAdjacentHTML('afterend', html);
+                var html = '<div style="background:red; margin: 5px; padding: 5px; color:#BFF">'+title4+' </div>';
+                document.getElementById('result4').insertAdjacentHTML('afterend', html);
+
+            }
+        }
+        function Delete(){
+            var parent = document.getElementById("resuly");
+            //var con=document.getElementById("result3");
+            parent.parentNode.removeChild(parent);
+            //parent.parentNode.remove(con);
+        }
+
+
+    </script>
+</head>
+<body>
+
+    <h1>Mã sinh viên </h1>
+    <p>Nhập mã sinh viên</p>
+    <input type="text" id="masv" value="" />
+    <p>Nhập họ tên sinh viên</p>
+    <input type="text" id="hotenhoten" value="" />
+    <p>Nhập quê quán </p>
+    <input type="text" id="que" value=""/>
+    <p>Nhập số điện thoại</p>
+    <input type="text" id="sdtsdt" value=""/>
+
+    <div id="result"></div>
+
+    <input type ="button" id="button_add" onclick="add_element()" value="add"/>
+    <input type ="button" id="Delete"  >
+ 
+
+
+
+</body>
+</html>

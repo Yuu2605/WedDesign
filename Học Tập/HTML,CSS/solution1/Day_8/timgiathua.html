@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm giai thừa</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        Nhập vaò hệ só giai thừa
+        <input type="number" id="fracNumber" name="fracNumber">
+        <button onclick="calFrac()">TÍNH GIAI THỪA</button>
+        <span id="result"></span>
+
+    </main>
+    <footer></footer>
+    <script>
+        function calcFrac() {
+            let fracNumber = document.getElementById("fracNumber");
+            var fracNumber = fracNumer.value;
+            var resultString;
+            var fracString;
+            if (fracNumber == null || fracNumber === '') {
+                alert('Vui lòng nhập vaò hệ số giai thừa');
+                fracInput.focus();
+            } else {
+                if (fracNumber == 0) {
+                    fracResult.value = fracNumber + '! = ' + fracNumber;
+
+
+                } else {
+                    for (var i = 1; i <= fracNumber; i++) {
+                        fracString += i + ' x ';
+                    } else {
+                        fracString += 1;
+                    }
+                    result *= 1;
+
+                }
+                resultString = faceNumber + '! =' + fractString + ' = ' +
+                    result;
+
+                console.log('fracString', fracString);
+            }
+        }
+    </script>
+</body>
+
+</html>

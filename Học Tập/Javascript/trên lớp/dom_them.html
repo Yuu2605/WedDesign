@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thêm thẻ html</title>
+    <script language="javascript" >
+        function add_element(){
+            var title = document.getElementById('title').value;
+            if (title == ''){
+                alert("Bạn chưa nhập tiêu đề");
+            }
+            else {
+                var html = '<div style="background:red; margin: 5px; padding: 5px; color:#BFF">'+title+' </div>';
+                document.getElementById('result').insertAdjacentHTML('afterend', html); //insertAdjacentHTML('afterend', html);-->thêm nội dung vào html
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+    <h1>Mã sinh viên </h1>
+    <input type="text" id="title" value="" />
+    <input type="button" id="button_add" onclick="add_element()" value="add" />
+    <div id="result"></div>
+
+
+</body>
+</html>

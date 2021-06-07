@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Javascrip</title>
+</head>
+<body>
+    <input type="text" id="id_textbox" value="" />
+    <input type="Button" id="id_button" value="Hiển thị">
+    <script type="text/javascript">
+         var Button = document.getElementById('id_button');
+         Button.addEventListener('click',function() {
+             var value = document.getElementById('id_textbox').value;
+             alert(value);
+         });
+          
+    </script>
+    
+</body>
+</html>

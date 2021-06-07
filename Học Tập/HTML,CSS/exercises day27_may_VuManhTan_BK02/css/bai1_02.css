@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+	color: #006600;
+}
+h2{
+	text-decoration: underline;
+	color: blue;
+}
+p{
+	font-weight: bold;
+}
+#me{
+	text-align: center;
+	border: 1px;
+	background-color:#FF99FF ;
+	color: #FF3399;
+	font-size: 25px;
+}
+#body{
+	text-align: center;
+	background: #FFFFCC;
+}
+.chu1{
+	color: #0000FF;
+	}
+.chu2{
+	color: #CC6666;
+}
+.chu3{
+	color: #006600;
+}

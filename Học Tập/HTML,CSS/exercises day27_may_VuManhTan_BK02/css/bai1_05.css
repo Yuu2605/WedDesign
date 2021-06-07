@@ -1,0 +1,18 @@
+
+#bai{
+	
+	width: 400px;
+	height: 400px;
+}
+
+h1{
+	text-align: center;
+	color: #0000CC;
+}
+a{
+	color: red;
+}
+pre{
+	background-color:#C0C0C0; 
+	color: blue;
+}

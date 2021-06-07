@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript"  >
+       class connguoi {
+        constructor(hoten, namsinh){
+            this.hoten = hoten || "unknown" ;
+            this.namsinh = namsinh || "unknown" ;
+        }
+        get thongtin(){
+            return "tên " + this.hoten + ", sinh năm " + this.namsinh;
+
+        }
+       }
+       class sinhvien extends connguoi{
+           constructor(masv, hoten, namsinh){
+               super(hoten, namsinh);
+               this.masv = masv || "unknown" ;
+           }
+           getThongtin(){
+               return(
+                   "mssv " + this.mssv + "," + super.getThongtin()
+               );
+           }
+       }
+       var sinhvien1 = new sinhvien("b123456", "vũ mạnh tân", "2001" ) 
+    </script>
+</body>
+</html>

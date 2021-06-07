@@ -1,0 +1,38 @@
+C:\Users\vubit\source\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.exe
+C:\Users\vubit\source\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.deps.json
+C:\Users\vubit\source\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.runtimeconfig.json
+C:\Users\vubit\source\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.dll
+C:\Users\vubit\source\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.pdb
+C:\Users\vubit\source\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.AssemblyInfo.cs
+C:\Users\vubit\source\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.dll
+C:\Users\vubit\source\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.pdb
+C:\Users\vubit\source\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.genruntimeconfig.cache
+D:\Học Tập\C#\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.exe
+D:\Học Tập\C#\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.deps.json
+D:\Học Tập\C#\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.runtimeconfig.json
+D:\Học Tập\C#\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.runtimeconfig.dev.json
+D:\Học Tập\C#\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.dll
+D:\Học Tập\C#\repos\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.pdb
+D:\Học Tập\C#\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.csprojAssemblyReference.cache
+D:\Học Tập\C#\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.AssemblyInfoInputs.cache
+D:\Học Tập\C#\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.AssemblyInfo.cs
+D:\Học Tập\C#\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.csproj.CoreCompileInputs.cache
+D:\Học Tập\C#\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.dll
+D:\Học Tập\C#\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.pdb
+D:\Học Tập\C#\repos\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.genruntimeconfig.cache
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.exe
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.deps.json
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.runtimeconfig.json
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.runtimeconfig.dev.json
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.dll
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\bin\Debug\netcoreapp3.1\01042021.pdb
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.csprojAssemblyReference.cache
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.AssemblyInfoInputs.cache
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.AssemblyInfo.cs
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.dll
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.pdb
+C:\xampp\htdocs\WedDesign\Học Tập\C#\01042021\01042021\obj\Debug\netcoreapp3.1\01042021.genruntimeconfig.cache

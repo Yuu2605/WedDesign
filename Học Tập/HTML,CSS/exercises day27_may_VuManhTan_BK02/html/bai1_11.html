@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+    body{
+    }
+</style>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function BtnClick(){
+            var name = document.getElementById('name').value;
+            if (name == '') {
+                alert('Moi nhap lai');
+            }
+            else{
+               document.getElementById("result").innerHTML ="Mã người dùng:" +name;
+        }
+    }
+    </script>
+    <h1 align="center" style="color:#CC9900 "> Đăng nhập</h1>
+    <table border="1px" bgcolor="#66FFFF" align="center">
+        <tr>
+            <td>Mã người dùng:</td>
+            <td> 
+                <input type="text" name="name" id="name" placeholder="Mời bạn điền tên">
+            </td>
+        </tr>
+        <tr>
+            <td>Mật khẩu</td>
+            <td>
+                <input type="password" name="pass" id="pass">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Đồng ý" onclick="BtnClick()"> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><span id="result" style="color: #FF0000"></span></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

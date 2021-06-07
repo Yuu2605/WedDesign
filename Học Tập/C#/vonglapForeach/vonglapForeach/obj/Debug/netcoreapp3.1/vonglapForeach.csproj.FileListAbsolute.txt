@@ -1,0 +1,12 @@
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\bin\Debug\netcoreapp3.1\vonglapForeach.exe
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\bin\Debug\netcoreapp3.1\vonglapForeach.deps.json
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\bin\Debug\netcoreapp3.1\vonglapForeach.runtimeconfig.json
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\bin\Debug\netcoreapp3.1\vonglapForeach.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\bin\Debug\netcoreapp3.1\vonglapForeach.dll
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\bin\Debug\netcoreapp3.1\vonglapForeach.pdb
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\obj\Debug\netcoreapp3.1\vonglapForeach.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\obj\Debug\netcoreapp3.1\vonglapForeach.AssemblyInfo.cs
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\obj\Debug\netcoreapp3.1\vonglapForeach.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\obj\Debug\netcoreapp3.1\vonglapForeach.dll
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\obj\Debug\netcoreapp3.1\vonglapForeach.pdb
+C:\Users\vubit\source\repos\vonglapForeach\vonglapForeach\obj\Debug\netcoreapp3.1\vonglapForeach.genruntimeconfig.cache

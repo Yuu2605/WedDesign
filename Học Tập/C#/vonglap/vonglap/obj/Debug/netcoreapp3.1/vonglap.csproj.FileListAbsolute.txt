@@ -1,0 +1,12 @@
+C:\Users\vubit\source\repos\vonglap\vonglap\bin\Debug\netcoreapp3.1\vonglap.exe
+C:\Users\vubit\source\repos\vonglap\vonglap\bin\Debug\netcoreapp3.1\vonglap.deps.json
+C:\Users\vubit\source\repos\vonglap\vonglap\bin\Debug\netcoreapp3.1\vonglap.runtimeconfig.json
+C:\Users\vubit\source\repos\vonglap\vonglap\bin\Debug\netcoreapp3.1\vonglap.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\vonglap\vonglap\bin\Debug\netcoreapp3.1\vonglap.dll
+C:\Users\vubit\source\repos\vonglap\vonglap\bin\Debug\netcoreapp3.1\vonglap.pdb
+C:\Users\vubit\source\repos\vonglap\vonglap\obj\Debug\netcoreapp3.1\vonglap.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\vonglap\vonglap\obj\Debug\netcoreapp3.1\vonglap.AssemblyInfo.cs
+C:\Users\vubit\source\repos\vonglap\vonglap\obj\Debug\netcoreapp3.1\vonglap.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\vonglap\vonglap\obj\Debug\netcoreapp3.1\vonglap.dll
+C:\Users\vubit\source\repos\vonglap\vonglap\obj\Debug\netcoreapp3.1\vonglap.pdb
+C:\Users\vubit\source\repos\vonglap\vonglap\obj\Debug\netcoreapp3.1\vonglap.genruntimeconfig.cache

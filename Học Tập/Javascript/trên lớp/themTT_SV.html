@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Thêm sinh viên </title>
+<link rel="stylesheet" type="text/css" href="them SV.css">
+<script type="text/javascript">
+
+	function add_element(){
+	var title = document.getElementById('masv').value;
+
+		if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+		exit();
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result1').insertAdjacentHTML('afterend',html);
+}
+
+var title = document.getElementById('tensv').value;
+	if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result2').insertAdjacentHTML('afterend',html);
+}
+
+
+var title = document.getElementById('sdt').value;
+	if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result3').insertAdjacentHTML('afterend',html);
+}
+
+
+var title = document.getElementById('diachi').value;
+	if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+		
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result4').insertAdjacentHTML('afterend',html);
+}
+
+}
+
+var number = document.getElementById('sdt').value;
+	if (number >length(10)) {
+		document.write("Bạn đã nhập quá số điện thoại mời bạn nhập lại: ");
+	}
+	window.onload = function(){
+			//Lấy danh sách button
+			var button =document.getElementsByTagName('input');
+			//Lặp qua từng button
+			for (var i = 0; i< button.length; i++){
+				//gán sự kiện click
+				button[i].addEventListener("click", function(){
+					//Lấy thẻ tr
+					var parent = this.parentElement.parentElement;
+					//và thực hiện xóa 
+					parent.remove();
+
+				});
+			}
+		};
+	
+
+</script>
+</head>
+<body>
+<form>
+	<label>tên đăng nhập</label><br>
+	<label><input type="text" id="u" placeholder="" value=""/></label><br><br>
+	<label>Mật khẩu</label><br>
+	<label><input type="text" id="password" placeholder="Vd: Nguyen Van A" value=""/></label><br><br>
+	<label>Quê quán</label><br>
+	<label>
+		<select id="diachi"value="">
+			<option>Hà nội</option>
+			<option>Hải phòng</option>
+			<option>Đà Nẵng</option>
+			<option>Hồ chí minh</option>
+		</select>
+	</label><br><br>
+	<label>Số điện thoại:</label><br>
+	<label> <input type="text" id="sdt" placeholder="Nhap number phone" maxlength="10" value=""></label><br><br>
+	<input type="button" name="button_add" onclick="add_element()" value="Thêm"/>
+	
+</form></div><br><br><br>
+
+<table  border="1" cellspacing='0' cellpadding="5" style="margin-top: 50px; ">
+	<input type="Button" name="delete" onclick="dk()">
+	<tr>
+		<th> Mã sinh viên</th>
+		<th> Họ & Tên</th>
+		<th> Quê quán</th>
+		<th> Số điện thoại:</th>
+	</tr>
+	<tr>
+        <td ><div id="result1"></td>
+            
+        <td ><div id="result2"></td>
+            
+        <td ><div id="result4"></td>
+            
+        <td ><div id="result3"></td>
+            
+	</tr>
+	<tr>
+		<td>
+			<input type="button" value="Xóa" />
+			<input type="button" value="sửa" />
+		</td>
+	</tr>
+</table>
+</body>
+</html>

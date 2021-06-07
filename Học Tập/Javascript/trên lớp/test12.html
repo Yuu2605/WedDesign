@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table width="100%" border="1" cellpadding="3" cellpadding ="3">
+        <thead>
+            <th>No</th>
+            <th>Full Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Address</th>
+        </thead>
+        <tbody>
+            <script type="text/javascript">
+            var studentList = []
+            for(i=0;i<10;i++) {
+                var student = {
+                    "full name": " Vu Manh" +1,
+                    "gender": "Nam",
+                    "age": i,
+                    "email": i + "@gmail.com",
+                    "address": + "HN_"+1
+                }
+                studentList.push(student)
+            }
+            for(i=0;i<studentList.length;i++) {
+          document.writeln('<tr>'+
+		 		'<td>'+(i+1)+'</td>'+
+		 		'<td>'+studentList[i].fullname+'</td>'+
+		 		'<td>'+studentList[i].gender+'</td>'+
+		 		'<td>'+studentList[i].age+'</td>'+
+		 		'<td>'+studentList[i].email+'</td>'+
+		 		'<td>'+studentList[i].address+'</td>'+
+		 	'</tr>')
+     
+            }
+
+            </script>
+</body>
+</html>

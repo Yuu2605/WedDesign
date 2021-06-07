@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập tên và sắp xếp danh sách</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var DS = new Array();
+    var s1, x;
+    s1=prompt("Nhập số lượng người trong danh sách: ");
+    for (var i=0;i<s1; i++ ){
+        DS[i] =prompt("nhập tên:","" );
+        
+    }
+    DS.sort();
+    document.writeln( "<h2> Danh sách nhập:</h2>" );
+    document.writeln(DS);
+    //document.writeln(DS[x]);
+    </script>
+</body>
+</html>

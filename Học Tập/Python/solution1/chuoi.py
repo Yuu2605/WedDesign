@@ -1,0 +1,1 @@
+print(r'hazz , \nếu một ngày nào đó')

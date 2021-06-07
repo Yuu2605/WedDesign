@@ -1,0 +1,12 @@
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\bin\Debug\netcoreapp3.1\câu lệnh vào ra.exe
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\bin\Debug\netcoreapp3.1\câu lệnh vào ra.deps.json
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\bin\Debug\netcoreapp3.1\câu lệnh vào ra.runtimeconfig.json
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\bin\Debug\netcoreapp3.1\câu lệnh vào ra.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\bin\Debug\netcoreapp3.1\câu lệnh vào ra.dll
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\bin\Debug\netcoreapp3.1\câu lệnh vào ra.pdb
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\obj\Debug\netcoreapp3.1\câu lệnh vào ra.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\obj\Debug\netcoreapp3.1\câu lệnh vào ra.AssemblyInfo.cs
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\obj\Debug\netcoreapp3.1\câu lệnh vào ra.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\obj\Debug\netcoreapp3.1\câu lệnh vào ra.dll
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\obj\Debug\netcoreapp3.1\câu lệnh vào ra.pdb
+C:\Users\vubit\source\repos\câu lệnh vào ra\câu lệnh vào ra\obj\Debug\netcoreapp3.1\câu lệnh vào ra.genruntimeconfig.cache

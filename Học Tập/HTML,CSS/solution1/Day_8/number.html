@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <main>
+            <input id="numberA" type="number" name="numberA" required>
+            <button id="checkBtn">Kết quả</button>
+            <span id="'evenNumber"></span>
+            <span id="oddNumber"></span>
+
+        </main>
+        <footer></footer>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#checkBtn').click(function() {
+                var arrOddNumber = [];
+                var arrEvenNumber = [];
+                var numberA = $("numberA").val();
+                if (numberA == '') {
+                    $('#errorMessange').html('Không dược để trống');
+                    $('#errorMessange').show();
+                    $('#numberA').focus();
+                } else {
+                    for (var i = 0; i <= numberA; i++) {
+                        if (i % 2 == 0) {
+                            arrEvenNumber.push(i);
+                        } else {
+                            arrOddNumber.push(i);
+                        }
+                    }
+                }
+                var stringOddNumber = 'Các số lẻ tử 1-' + numberA + 'LÀ' +
+                    arrOddNumber.join(', ');
+                var stringEvenNumber = 'Các số chẵn tử 1-' + numberA + 'LÀ' +
+                    arrEvenNumber.join(', ');
+                $('#everNumber').html(stringEvenNumber);
+                $('#oddNumber').html(stringOddNumber);
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>

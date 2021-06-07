@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a = window.innerHeight
+        var b = window.innerWidthWidth
+        //var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        //var height = window.innerHeight || document.documentElement.clientWidth || document.body.clientWidth;
+        console.log(a)
+    </script>
+</head>
+
+<body>
+    <button onclick="size()">Size</button>
+    <button onClick="openWindow()">Open</button><br><br>
+    <button onClick="closeWindow()">Close</button><br><br>
+    <button onClick="Window.location.reload()">reload</button><br><br>
+    <button onClick="goTo()">OK</button><br><br>
+    <button onClick="replaceUrl()">Replace</button><br><br>
+
+    <script type="text/javascript">
+        //lấy chiều rộng chiều cao màn hình
+        function size() {
+            var a = window.innerHeight
+            var b = window.innerWidth
+            document.write("chiều cao cửa sổ: " + a);
+            document.write("chiều rộng cửa sổ: " + b);
+        }
+
+        var test
+
+        function openWindow() {
+            test = window.open("https://google.com/", "Test")
+        }
+
+        function closeWindow() {
+            test=window.close();
+        }
+ 
+        function goTo() {
+            window.location.assign("https://google.com/");
+        
+        }
+        function replaceUrl(){
+            test.window.location.href("https://dantri.com/");
+        }
+
+    </script>
+
+</body>
+
+</html>

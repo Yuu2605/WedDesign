@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>bai13</title>
+	<style type="text/css">
+		#KQ{
+			text-align: center;
+			color: #FF6600;
+		}
+		h1{
+			text-align: center;
+			color: #003399;
+		}
+		#bang{
+			color: #003399;
+			background-color: #FFFFCC;
+		}
+	</style>
+	<script type="text/javascript">
+		function showUser(){
+			document.getElementById('KQ').innerText = "Bạn đã đăng kí thành công !" ;
+			exit();
+		}
+	</script>
+</head>
+<body>
+	<h1>Đăng kí du lịch</h1>
+	<table id="bang" align="center" cellspacing="0px" border="1px">
+		<tr>
+			<td>Họ và tên</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Địa chỉ</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Điện thoại</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Khách Việt Nam</td>
+			<td>
+				<input type="checkbox" value="" checked="">
+			</td>
+		</tr>
+		<tr>
+			<td>Chọn Tour</td>
+			<td>
+				<select>
+					<option>Gia Lai-Kontum</option>
+					<option>Thái Bình-Cà Mau</option>
+					<option>Hà Nội-Hải Phòng</option>
+					<option>khác</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Phương Tiện</td>
+			<td>
+				<input type="radio" id="plane" name="vehicle" value="" /><label for="plane">Máy Bay</label>
+				<input type="radio" id="car" name="vehicle" value=""  checked="" /><label for="car">Xe Ô Tô</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<fieldset>
+					<legend style="color: #FF6600">Số lượng đoàn khách</legend>
+					<label>Người lớn <input type="text"> Trẻ em <input type="text"></label>
+				</fieldset>
+			</td>
+		</tr>
+		<tr>
+			<td>Ghi chú thêm</td>
+			<td>
+				<select size="2">					
+					<option>có 2 trẻ em dưới 6 tuổi</option>					
+					<option>có 2 người ăn chay</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;"><input type="button" value="Đồng ý" onclick="showUser()" ></td>
+		</tr>
+		<tr>
+			<td colspan="2"><div id="KQ"></div></td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="txt-val" value="" />
+    <div id="result"></div>
+    <script language="javascript">
+        var input = document.getElementById("txt-val");
+
+        input.addEventListener('keyup', function(){
+            document.getElementById('result').innerHTML = input.value;
+
+        });
+
+        input.addEventListener('keyup' , function(){
+            if (input.value.length > 10){
+                alert("Bạn đã nhập nhiều hơn 10 ký tự");
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xóa thẻ HTML</title>
+    <script language="JavaScript" >
+        window.onload = function(){
+            //lấy danh sách
+            var button = document.getElementsByTagName('input');
+            //lập qua từng button
+            for (var i=0; i < button.length; i++){
+
+                //gán event click
+                button[i].addEventListener('click',function(){
+                    //lấy thẻ sách
+                    var parent = this.parentElement.parentElement;
+                    parent.remove();
+                });
+
+            }
+        };
+
+    </script>
+</head>
+<body>
+    <h1>Xóa thẻ html</h1>
+    <table border="1" cellspacing="5" cellpadding="0" >
+        <tr>
+            <td>1</td>
+            <td>Tiêu đề thứ nhất</td>
+            <td>
+                <input type="button" value="Delete"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Tiêu đề thứ hai</td>
+            <td>
+                <input type="button" value="Delete"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Tiêu đề thứ ba</td>
+            <td>
+                <input type="button" value="Delete"/>
+            </td>
+        </tr>
+    </tabe>
+</body>
+</html>

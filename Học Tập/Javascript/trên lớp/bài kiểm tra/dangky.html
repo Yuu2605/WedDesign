@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<script language="JavaScript" src="kiemtra.js" ></script>
+<form action="" method="POST" onsubmit="return validate()">
+    <div class="register">
+        <h>Đăng ký</h>
+        <p>vui lòng nhập thông tin để đăngg ký</p>
+        <hr>
+        <label for="username"><b>Tên đăng nhập</b></label>
+        <input type="text" placeholder="Họ và tên" name="username" id="username" >
+
+        <label for="password"> <b>Mật khẩu</b> </label> 
+        <input type="password" placeholder="" name="password" id="password" >
+
+        <label for="password-repeat"> <b>Mật lại khẩu</b> </label> 
+        <input type="password" placeholder="" name="password-repeat" id="password-repeat" >
+
+        <label for="sdt"><b>Số điện thoại</b></label>
+        <input type="number" placeholder="Số điện thoại" name="sdt" id="sdt" >
+
+        <label for="quequan"><b>Quê quán</b></label>
+        <input type="text" placeholder="Quê quán" name="quequan" id="quequan"  >
+        
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Email" name="email" id="email"  >
+
+        
+        <button type="submit" class="submit">Đăng ký</button>
+
+
+    </div>
+    <div class="register login">
+        <p>Bạn đã có tài khoản rồi? <a href="#"></a> </p>
+</div><br><br><br>
+
+
+<table  border="1" cellspacing='0' cellpadding="5" style="margin-top: 50px; ">
+	<input type="Button" name="delete" onclick="dk()">
+    <tr>
+		<th> Tên đăng nhập</th>
+		<th> Mật khẩu</th>
+		<th> Quê quán</th>
+		<th> Số điện thoại:</th>
+	</tr>
+	<tr>
+        <td ><div id="result1"></td>
+            
+        <td ><div id="result2"></td>
+            
+        <td ><div id="result4"></td>
+            
+        <td ><div id="result3"></td>
+            
+	</tr>
+	<tr>
+        <td><input type="button" onclick="Delete()" value="Xóa"></td>
+	</tr>
+</body>
+</html>

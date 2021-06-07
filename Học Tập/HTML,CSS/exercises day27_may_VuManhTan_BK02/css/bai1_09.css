@@ -1,0 +1,21 @@
+body{
+    margin: 0px auto;
+    width: 800px;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+ table, td, th {
+    text-align: center;
+    border: 1px solid red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}  
+th{
+    background-color:#CC0033;
+    color: #FFF;
+}

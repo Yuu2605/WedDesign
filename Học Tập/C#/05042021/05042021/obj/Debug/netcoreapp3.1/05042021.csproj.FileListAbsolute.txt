@@ -1,0 +1,13 @@
+C:\Users\vubit\source\repos\05042021\05042021\bin\Debug\netcoreapp3.1\05042021.exe
+C:\Users\vubit\source\repos\05042021\05042021\bin\Debug\netcoreapp3.1\05042021.deps.json
+C:\Users\vubit\source\repos\05042021\05042021\bin\Debug\netcoreapp3.1\05042021.runtimeconfig.json
+C:\Users\vubit\source\repos\05042021\05042021\bin\Debug\netcoreapp3.1\05042021.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\05042021\05042021\bin\Debug\netcoreapp3.1\05042021.dll
+C:\Users\vubit\source\repos\05042021\05042021\bin\Debug\netcoreapp3.1\05042021.pdb
+C:\Users\vubit\source\repos\05042021\05042021\obj\Debug\netcoreapp3.1\05042021.csprojAssemblyReference.cache
+C:\Users\vubit\source\repos\05042021\05042021\obj\Debug\netcoreapp3.1\05042021.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\05042021\05042021\obj\Debug\netcoreapp3.1\05042021.AssemblyInfo.cs
+C:\Users\vubit\source\repos\05042021\05042021\obj\Debug\netcoreapp3.1\05042021.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\05042021\05042021\obj\Debug\netcoreapp3.1\05042021.dll
+C:\Users\vubit\source\repos\05042021\05042021\obj\Debug\netcoreapp3.1\05042021.pdb
+C:\Users\vubit\source\repos\05042021\05042021\obj\Debug\netcoreapp3.1\05042021.genruntimeconfig.cache

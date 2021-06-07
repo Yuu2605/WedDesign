@@ -1,0 +1,57 @@
+.logo_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1300px;
+    height: 1847px;
+    z-index: 87;
+}
+
+.Craft_By_Css_author_com {
+    font-size: 13px;
+    font-family: "LaoUI";
+    color: rgba(255, 255, 255, 0.769);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 453.937px;
+    top: 78.671px;
+    z-index: 86;
+}
+
+.Shape_8_copy_3 {
+    background-color: rgb(245, 197, 6);
+    position: absolute;
+    left: 140px;
+    top: 28px;
+    width: 83px;
+    height: 83px;
+    z-index: 85;
+}
+
+.Shape_8_copy_4 {
+    background-color: rgb(245, 197, 6);
+    opacity: 0.502;
+    position: absolute;
+    left: 142px;
+    top: 29px;
+    width: 79px;
+    height: 80px;
+    z-index: 84;
+}
+
+.TheYalow {
+    font-size: 41px;
+    font-family: "Lucida Sans";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.42);
+    position: absolute;
+    left: 226.609px;
+    top: 51.371px;
+    z-index: 83;
+}

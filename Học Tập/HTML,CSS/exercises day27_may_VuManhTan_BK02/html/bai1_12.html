@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>bai12</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+		}
+		#KQ{
+			text-align: center;
+		}
+		.backgroud_blue{
+			background: skyblue;
+		}
+		#bang{
+			width: 600px;
+			height: 500px;
+		}
+	</style>
+	<script type="text/javascript">
+		function showUser(){
+			document.getElementById('KQ').innerText = "Bạn đã đăng kí thành công !" ;
+			exit();
+		}
+	</script>
+</head>
+<body>
+	<h1>Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
+	<table id="bang" cellspacing="0px" border="1px" style="background: skyblue;" align="center">
+		<tr>
+			<td>Họ và tên</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Địa chỉ</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Điện thoại</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Phái</td>
+			<td>
+				<input type="radio" id="male" name="sex" value="" /><label for="male">Male</label>
+				<input type="radio" id="female" name="sex" value="" checked /><label for="female">Female</label>
+			</td>
+		</tr>
+		<tr>
+			<td>Nghề Nghiệp</td>
+			<td>
+				<select>
+					<option>bác sĩ</option>
+					<option>giáo viên</option>
+					<option>kỹ sư</option>
+					<option>khác</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Chọn sản phẩm tham gia</td>
+			<td>
+				<select size="4">
+					<option class="backgroud_blue">kem đánh răng</option>
+					<option>bột giặt</option>
+					<option class="backgroud_blue">dầu gội đầu</option>
+					<option>sữa tắm</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Số người dự đoán tham gia</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td  colspan="2"><input  type="button" name="submit" value="Submit" onclick="showUser()"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><div id="KQ"></div></td>
+		</tr>
+	</table>
+</body>
+</html>

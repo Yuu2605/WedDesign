@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính hiệu</title>
+    <script type="text/javascript">
+     
+       function tinhhieu(){
+           var a=document.getElementById("soa");
+           var b=document.getElementById("sob");
+
+           var tong=Number(a.value)-Number(b.value);
+
+           var kq=document.getElementById("Ketqua");
+           kq.value=tong;
+
+       }
+
+    </script>
+
+</head>
+<body style="font-family: aria; background-color:hotpink" >
+    <h1>
+        Nhập phép tính:
+    </h1>
+    <td>Nhập số a: </td>
+    <td><input type="text" id="soa"></td>
+    <tr>
+        <td>Nhập số b: </td>
+        <td><input type="text" id="sob"></td>
+    </tr>
+    <tr>
+        <td>Kết quả: </td>
+        <td>
+            <input type="text" id="ketqua:">
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><input type="button" value="Tính" onclick="Tinhhieu();">   </td>
+    </tr>
+
+    
+</body>
+</html>

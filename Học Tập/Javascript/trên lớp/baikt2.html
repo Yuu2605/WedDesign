@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FORM ĐĂNG NHẬP </title>
+<link rel="stylesheet" type="text/css" href="themttSV.css">
+<script type="text/javascript">
+
+	function add_element(){
+	var title = document.getElementById('username').value;
+
+		if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+		exit();
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result1').insertAdjacentHTML('afterend',html);
+}
+
+var title = document.getElementById('password').value;
+	if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result2').insertAdjacentHTML('afterend',html);
+}
+
+
+var title = document.getElementById('sdt').value;
+	if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result3').insertAdjacentHTML('afterend',html);
+}
+
+
+var title = document.getElementById('quequan').value;
+	if (title =='') {
+		alert(" Bạn cần nhập đầy đủ thông tin");
+		
+	}
+	else{
+	var html = '<div margin:5px; padding:5px;>'+title+' </div>';
+	document.getElementById('result4').insertAdjacentHTML('afterend',html);
+}
+
+}
+
+var number = document.getElementById('sdt').value;
+	if (number >length(10)) {
+		document.write("Bạn đã nhập quá số điện thoại mời bạn nhập lại: ");
+    }
+    function dk(){
+			 var parent=document.getElementById('result');
+			 parent.parentNode.removeChild(parent);
+			}
+			window.onload = function(){
+			//Lấy danh sách button
+			var button =document.getElementsByTagName('input');
+			//Lặp qua từng button
+			for (var i = 0; i< button.length; i++){
+				//gán sự kiện click
+				button[i].addEventListener("click", function(){
+					//Lấy thẻ tr
+					var parent = this.parentElement.parentElement;
+					//và thực hiện xóa 
+					parent.remove();
+
+				});
+			}
+		};
+	
+
+</script>
+</head>
+<body>
+<form>
+	<h>Đăng ký</h>
+	<p>vui lòng nhập thông tin để đăngg ký</p>
+	<hr>
+	<label for="username"><b>Tên đăng nhập</b></label>
+	<input type="text" placeholder="Họ và tên" name="username" id="username" >
+
+	<label for="password"> <b>Mật khẩu</b> </label> 
+	<input type="password" placeholder="" name="password" id="password" >
+
+	<label for="password-repeat"> <b>Mật lại khẩu</b> </label> 
+	<input type="password" placeholder="" name="password-repeat" id="password-repeat" >
+
+
+	<label for="quequan"><b>Quê quán</b></label>
+	<input type="text" placeholder="Quê quán" name="quequan" id="quequan"  >
+	
+	<label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="email" id="email"  >
+    <label>Số điện thoại:</label><br>
+	<label> <input type="text" id="sdt" placeholder="Nhap number phone" maxlength="10" value=""></label><br><br>
+	<input type="button" name="button_add" onclick="add_element()" value="Thêm"/>
+
+
+	
+</form></div><br><br><br>
+
+<table  border="1" cellspacing='0' cellpadding="5" style="margin-top: 50px; ">
+	<input type="Button" name="delete" onclick="dk()">
+    <tr>
+		<th> Tên đăng nhập</th>
+		<th> Mật khẩu</th>
+		<th> Quê quán</th>
+		<th> Số điện thoại:</th>
+	</tr>
+	<tr>
+        <td ><div id="result1"></td>
+            
+        <td ><div id="result2"></td>
+            
+        <td ><div id="result4"></td>
+            
+        <td ><div id="result3"></td>
+            
+	</tr>
+	<tr>
+        <td><input type="button" onclick="Delete()" value="Xóa"></td>
+	</tr>
+</table>
+</body>
+</html>

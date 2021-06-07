@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phép tính</title>
+    <style>
+        #ketqua {
+            margin:20px;
+            padding: 30px;
+            background:yellowgreen;
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="soa" />
+    <input type="text" id="sob" />
+    <input type="button" value="Phép cộng" />
+
+    <div id="ketqua"></div>
+
+    <script>
+        function tong() {
+            // lấy dữ liệu từ texbox
+            var a = document.getElementById("soa").value;
+            var b = document.getElementById("sob").value;
+            c = parseInt(a) + parseInt(b);
+            document.getElementByIdA("ketqua").innerHTML = a + " + " + b  + " = " + c;
+        }
+    </script>
+</body>
+</html>

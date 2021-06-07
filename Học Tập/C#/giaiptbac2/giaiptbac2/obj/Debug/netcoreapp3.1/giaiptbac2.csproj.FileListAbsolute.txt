@@ -1,0 +1,13 @@
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\bin\Debug\netcoreapp3.1\giaiptbac2.exe
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\bin\Debug\netcoreapp3.1\giaiptbac2.deps.json
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\bin\Debug\netcoreapp3.1\giaiptbac2.runtimeconfig.json
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\bin\Debug\netcoreapp3.1\giaiptbac2.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\bin\Debug\netcoreapp3.1\giaiptbac2.dll
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\bin\Debug\netcoreapp3.1\giaiptbac2.pdb
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\obj\Debug\netcoreapp3.1\giaiptbac2.csprojAssemblyReference.cache
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\obj\Debug\netcoreapp3.1\giaiptbac2.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\obj\Debug\netcoreapp3.1\giaiptbac2.AssemblyInfo.cs
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\obj\Debug\netcoreapp3.1\giaiptbac2.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\obj\Debug\netcoreapp3.1\giaiptbac2.dll
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\obj\Debug\netcoreapp3.1\giaiptbac2.pdb
+C:\Users\vubit\source\repos\giaiptbac2\giaiptbac2\obj\Debug\netcoreapp3.1\giaiptbac2.genruntimeconfig.cache

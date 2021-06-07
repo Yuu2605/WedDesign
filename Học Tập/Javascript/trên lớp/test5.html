@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <script type="text/javascript">
+
+        function Tinhtong() {
+            //khai báo biến và gán giá trị cho biến
+            var a=document.getElementById("soa");
+            var b=document.getElementById("sob");
+            //tính tổng
+            var tong=Number(a.value)+Number(b.value);
+            //xuất cho biến
+            var kq=document.getElementById("ketqua");
+            kq.value=tong;
+        }
+    
+    </script>
+
+</head>
+<body style="font-family: aria; background-color: rgb(177, 177, 241)">
+    <h1>Nhập phép tính: </h1>
+    <tr>
+        <td>Nhập số a:</td>
+        <td><input type="text" id="soa"></td>
+    </tr>
+        <tr>
+            <td>Nhập số b:</td>
+            <td><input type="text" id="sob"></td>
+        </tr>
+        <tr>
+            <td>Kết quả:</td>
+            <td><input type="text" id="ketqua:"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="Tính" onclick="Tinhtong();"></td>
+        </tr>
+    
+</body>
+</html>

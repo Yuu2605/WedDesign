@@ -1,0 +1,13 @@
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\bin\Debug\netcoreapp3.1\ngaythangnam.exe
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\bin\Debug\netcoreapp3.1\ngaythangnam.deps.json
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\bin\Debug\netcoreapp3.1\ngaythangnam.runtimeconfig.json
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\bin\Debug\netcoreapp3.1\ngaythangnam.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\bin\Debug\netcoreapp3.1\ngaythangnam.dll
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\bin\Debug\netcoreapp3.1\ngaythangnam.pdb
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\obj\Debug\netcoreapp3.1\ngaythangnam.csprojAssemblyReference.cache
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\obj\Debug\netcoreapp3.1\ngaythangnam.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\obj\Debug\netcoreapp3.1\ngaythangnam.AssemblyInfo.cs
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\obj\Debug\netcoreapp3.1\ngaythangnam.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\obj\Debug\netcoreapp3.1\ngaythangnam.dll
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\obj\Debug\netcoreapp3.1\ngaythangnam.pdb
+C:\Users\vubit\source\repos\ngaythangnam\ngaythangnam\obj\Debug\netcoreapp3.1\ngaythangnam.genruntimeconfig.cache

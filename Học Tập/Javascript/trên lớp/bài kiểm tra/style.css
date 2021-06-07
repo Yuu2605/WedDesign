@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+a {
+    color:aqua;
+}
+*{
+    box-sizing: border-box;
+}
+.register {
+    width: 500px;
+    padding: 16px;
+    margin: 0 auto;
+
+    background-color:beige;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 16px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color:aliceblue;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    background-color: beige;
+    outline: none;
+}
+hr {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+.submit{
+    background-color:beige;
+    color:white;
+    padding: 15px 18px;
+    margin : 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9 ;
+}
+.submit:hover{
+    opacity: 1;
+
+
+}
+.login{
+    background-color: beige;
+    text-align: center;
+}

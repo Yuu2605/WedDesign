@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thông tin xinh viên</title>
+	<link rel="stylesheet" type="text/css" href="Thsv.css">
+	<script type="text/javascript">
+		function submit()
+		var name = document.getElementById('name').value;
+			var mk = document.getElementById('matkhau').value;
+			var nlmk = document.getElementById('nlmatkhau').value;
+			var so = document.getElementById('sdt').value;
+			var qq = document.getElementById('quequan').value;
+			var email = document.getElementById('email').value;
+			if (name==''|| mk==''|| nlmk==''|| so==''|| qq=='') {
+				alert("bạn chưa nhập đủ thông tin  sinh viên!");
+				exit();
+				}
+			
+				else{
+					var html = '<div margin: 5px; padding:5px; color:#FFF>'+name+'<div>';
+				document.getElementById('result').insertAdjacentHTML('afterend', html);
+				
+					var html = '<div margin: 5px; padding:5px; color:#FFF>'+mk+'<div>' ;
+				document.getElementById('result1').insertAdjacentHTML('afterend', html);
+				
+					var html = '<div margin: 5px; padding:5px; color:#FFF>'+nlmk+'<div>' ;
+				document.getElementById('result2').insertAdjacentHTML('afterend', html);
+				
+					var html = '<div margin: 5px; padding:5px; color:#FFF>'+so+'<div>' ;
+				document.getElementById('result3').insertAdjacentHTML('afterend', html);
+
+				    var html = '<div margin: 5px; padding:5px; color:#FFF>'+qq+'<div>' ;
+				document.getElementById('result4').insertAdjacentHTML('afterend', html);
+
+				    var html = '<div margin: 5px; padding:5px; color:#FFF>'+email+'<div>' ;
+				document.getElementById('result5').insertAdjacentHTML('afterend', html);
+				}
+		
+		function dk(){
+			 var parent=document.getElementById('result');
+			 parent.parentNode.removeChild(parent);
+			}
+			window.onload = function(){
+			//Lấy danh sách button
+			var button =document.getElementsByTagName('input');
+			//Lặp qua từng button
+			for (var i = 0; i< button.length; i++){
+				//gán sự kiện click
+				button[i].addEventListener("click", function(){
+					//Lấy thẻ tr
+					var parent = this.parentElement.parentElement;
+					//và thực hiện xóa 
+					parent.remove();
+
+				});
+			}
+		};
+	</script>
+</head>
+<body>
+	<form>
+		<h1>Đăng kí thành viên</h1>
+		<table>
+			<tr>
+				<td>Tên đăng nhập</td>
+				<td><input type="text" id="name" value=""/></td>
+			</tr>
+			<tr>
+				<td>Mật khẩu</td>
+				<td><input type="text" id="mk" value=""/></td>
+			</tr>
+			<tr>
+				<td>Nhập lại mật khẩu</td>
+				<td><input type="text" id="nlmk" value=""/></td>
+			</tr>
+			<tr>
+				<td>Số điện thoại</td>
+				<td><input type="number" id="so" value=""/></td>
+			</tr>
+			<tr>
+				<td>Quê quán</td>
+				<label>
+				<select id="diachi" value="">
+					<option>Hà Nội</option>
+					<option>Trung Quốc</option>
+					<option>Lào</option>
+					<option>Thái</option>
+					<option>Philipin</option>
+					<option>Hàn</option>
+					<option>Nhật</option>
+				</select>
+			</label>
+			</tr>
+			<tr>
+                <td>Email</td>
+                <td><input type="text" id="email" value=""/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="Button" value="Nhập" onclick="submit()"></td>
+			</tr>
+		</table><br><br>
+		<input type="Button" name="delete" onclick="dk()">
+		<table border="1">
+			<tr>
+				<th>Tên đăng nhập</th>
+				<th>Mật khẩu</th>
+				<th>Nhập lại mật khẩu</th>
+				<th>Số điện thoại</th>
+				<th>Quê quán</th>
+				<th>Email</th>
+			</tr>
+			<tr id="ketqua">
+			<td id="a1">
+				<div id="result"></div>
+			</td>
+			<td>
+				<div id="result1"></div>
+			</td>
+			<td>
+				<div id="result2"></div>
+			</td>
+			<td>
+				<div id="result3"></div>
+			</td>
+			<td>
+				<div id="result4"></div>
+			</td>
+			<td>
+				<div id="result5"></div>
+			</td>
+			<td>
+				<div>
+					
+				</div>
+			</td>
+			<td>
+				<input type="button" value="Xóa" />
+				<input type="button" value="sửa" />
+			</td>
+		</tr>
+		</table>
+	</form>
+
+</body>
+</html>

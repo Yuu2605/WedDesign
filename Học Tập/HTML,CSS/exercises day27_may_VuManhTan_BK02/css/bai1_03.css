@@ -1,0 +1,22 @@
+body{
+    width: 620px;
+    margin: 0px auto;
+    padding: 0px;
+	background-color:#A06D21 ;
+	color: #FFFF;
+	background-image: url(../img/anh1.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px; 
+}
+p{
+}
+h1{
+    padding: 45px 0px ;
+    color: #FFCC00;
+    text-align: center;
+
+}

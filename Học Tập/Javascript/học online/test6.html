@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+    // tạo class sv
+    class SinhVien{
+        // hàm khơir tạo
+        constructor(hoten, gioitinh, mssv, namsinh){
+            this.hoten = hoten;
+            this.gioitinh = gioitinh;
+            this.mssv = mssv;
+            this.namsinh = namsinh;
+
+        }
+        //khai báo phương thức
+        hocbai(){
+            console.log('đang học bài...');
+        }
+        dingu(){
+            console.log('đang ngủ...');
+        }
+        xemphim(){
+            console.log('đang xem phim...');
+        }
+
+    }
+    //tạo đối tượng từ class sinh viên
+    var SinhVien1 = new SinhVien("Vũ Mạnh Tân", "Nam", "b123456789", "2001");
+    var SinhVien2 = new SinhVien();
+    var SinhVien3 = new SinhVien();
+    // log ra thông tin
+    console.log(sinhVien1);
+    console.log(sinhVien3);
+    console.log(sinhVien2);
+
+   document.write(SinhVien);
+    </script>
+</body>
+</html>

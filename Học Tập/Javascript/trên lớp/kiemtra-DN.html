@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    </style>
+    <script>
+        function check() {
+            var name = document.form.name.value;
+            var password = document.form.password.value;
+            var password1 = document.form.password1.value;
+        if (name == null ||name == ""){
+            alert("không để trống tên");
+            return false;
+        } else if (password.length <5 ){
+            alert("Password phải có ít nhất 5 ký tự.");
+            return false
+        } else if(password == password1){
+            alert("login thành công!");
+            return true;
+        }else{
+            alert("Password phải giống nhau. ");
+            return false;
+
+        }
+
+        }
+
+    </script>
+</head>
+<body style="font-family: aria; background-color:rgba(189, 136, 238, 0.274)">
+    <form name="form" method="post" action="" onsubmit="return check()">
+    <laber>Name:</laber>
+    <input type="text" name="name" value=""><br>
+    <laber>Password: </laber>
+    <input type="password" name="password" value=""><br>
+    <laber>Re-Password: </laber>
+    <input type="password" name="password1" value=""><br>
+    <input type="submit" value="register">
+    </form>
+</body>
+</html>

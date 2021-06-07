@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ngaythangnam/1.0.0": {
+        "runtime": {
+          "ngaythangnam.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ngaythangnam/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

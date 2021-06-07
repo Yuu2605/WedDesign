@@ -1,0 +1,13 @@
+C:\Users\vubit\source\repos\caudk\caudk\bin\Debug\netcoreapp3.1\caudk.exe
+C:\Users\vubit\source\repos\caudk\caudk\bin\Debug\netcoreapp3.1\caudk.deps.json
+C:\Users\vubit\source\repos\caudk\caudk\bin\Debug\netcoreapp3.1\caudk.runtimeconfig.json
+C:\Users\vubit\source\repos\caudk\caudk\bin\Debug\netcoreapp3.1\caudk.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\caudk\caudk\bin\Debug\netcoreapp3.1\caudk.dll
+C:\Users\vubit\source\repos\caudk\caudk\bin\Debug\netcoreapp3.1\caudk.pdb
+C:\Users\vubit\source\repos\caudk\caudk\obj\Debug\netcoreapp3.1\caudk.csprojAssemblyReference.cache
+C:\Users\vubit\source\repos\caudk\caudk\obj\Debug\netcoreapp3.1\caudk.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\caudk\caudk\obj\Debug\netcoreapp3.1\caudk.AssemblyInfo.cs
+C:\Users\vubit\source\repos\caudk\caudk\obj\Debug\netcoreapp3.1\caudk.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\caudk\caudk\obj\Debug\netcoreapp3.1\caudk.dll
+C:\Users\vubit\source\repos\caudk\caudk\obj\Debug\netcoreapp3.1\caudk.pdb
+C:\Users\vubit\source\repos\caudk\caudk\obj\Debug\netcoreapp3.1\caudk.genruntimeconfig.cache

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chữ chạy</title>
+    <script language="JavaScript" >
+        var str = ' Cao đẳng bách khoa Hà Nội'
+        //đưa vào nhìn cho đẹp ( có khoảng cách trống giữa 02 lần chạy)
+        for ( i=str.length; i<100; i++ ) {
+            str =  str + ''
+        }
+        function ChuChay(){
+            window.status = str
+            str = str.substr(1,str.length-1) +str.substr(0,1);
+
+            setTimeout(ChuChay,100)
+        }
+        ChuChay()
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

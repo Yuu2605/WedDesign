@@ -1,0 +1,24 @@
+body{
+    padding: 20px;
+    background-color: #FFEDCA;
+    width: 600px;
+    margin: auto;
+}
+.tr1{
+    background-color: aliceblue;
+}
+.img{
+    margin-top: 50px;
+    float: left;
+    margin-right: 20px;
+}
+table, td, th {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}

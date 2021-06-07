@@ -1,0 +1,13 @@
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\bin\Debug\netcoreapp3.1\baikiemtra.exe
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\bin\Debug\netcoreapp3.1\baikiemtra.deps.json
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\bin\Debug\netcoreapp3.1\baikiemtra.runtimeconfig.json
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\bin\Debug\netcoreapp3.1\baikiemtra.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\bin\Debug\netcoreapp3.1\baikiemtra.dll
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\bin\Debug\netcoreapp3.1\baikiemtra.pdb
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\obj\Debug\netcoreapp3.1\baikiemtra.csprojAssemblyReference.cache
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\obj\Debug\netcoreapp3.1\baikiemtra.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\obj\Debug\netcoreapp3.1\baikiemtra.AssemblyInfo.cs
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\obj\Debug\netcoreapp3.1\baikiemtra.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\obj\Debug\netcoreapp3.1\baikiemtra.dll
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\obj\Debug\netcoreapp3.1\baikiemtra.pdb
+C:\Users\vubit\source\repos\baikiemtra\baikiemtra\obj\Debug\netcoreapp3.1\baikiemtra.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\vubit\source\repos\winform1\winform1\bin\Debug\netcoreapp3.1\winform1.exe
+C:\Users\vubit\source\repos\winform1\winform1\bin\Debug\netcoreapp3.1\winform1.deps.json
+C:\Users\vubit\source\repos\winform1\winform1\bin\Debug\netcoreapp3.1\winform1.runtimeconfig.json
+C:\Users\vubit\source\repos\winform1\winform1\bin\Debug\netcoreapp3.1\winform1.runtimeconfig.dev.json
+C:\Users\vubit\source\repos\winform1\winform1\bin\Debug\netcoreapp3.1\winform1.dll
+C:\Users\vubit\source\repos\winform1\winform1\bin\Debug\netcoreapp3.1\winform1.pdb
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.csprojAssemblyReference.cache
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.Form1.resources
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.csproj.GenerateResource.cache
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.AssemblyInfoInputs.cache
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.AssemblyInfo.cs
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.csproj.CoreCompileInputs.cache
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.dll
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.pdb
+C:\Users\vubit\source\repos\winform1\winform1\obj\Debug\netcoreapp3.1\winform1.genruntimeconfig.cache
