@@ -1,51 +1,37 @@
 <?php
 class Employee
 {
-    public $id;
-    public $name;
-    public $workingHoursPerDay = 8;
-    public $hourlyRate = 15;
-    public $totalLeaveTaken;
-    public $workingDays;
+    var $id ;
+    var $name;
+    var $workingHoursPerDay;
+    var $hourlyRate;
+    var $totalLeaveTaken;
+    var $workingDays;
+    var $info;
 
-
-    public function getworkingHoursPerday()
+    function setinf($id, $name, $workingHoursPerDay, $hourlyRate, $totalLeaveTaken, $workingDays)
     {
-        return $this->workingHoursPerDay;
-    }
-    public function set_hourlyRate($hourlyRate)
-    {
+        $this->id = $id;
+        $this->name = $name;
+        $this->workingHoursPerDay = $workingHoursPerDay;
         $this->hourlyRate = $hourlyRate;
-    }
-    public function get_hourlyRate()
-    {
-        return $this->hourlyRate;
-    }
-    public function set_totalLeaveTaken($totalLeaveTaken)
-    {
         $this->totalLeaveTaken = $totalLeaveTaken;
-    }
-    public function get_totalLeaveTaken()
-    {
-        return $this->totalLeaveTaken;
-    }
-    public function set_workingDays($workingDays)
-    {
         $this->workingDays = $workingDays;
+        $this->getSalaryAmount = ($this->workingDays-$this->totalLeaveTaken)*$this->workingHoursPerDay*$this->hourlyRate;;
+        $this->processInfomation();
     }
-    public function get_workingDays()
+    function processInfomation()
     {
-        return $this->workingDays;
+        return $this->info = $this->name .' has worked for '. $this->workingDays .' days and taken '. $this->totalLeaveTaken .' leaves,'. $this->name .' salary is '.$this->getSalaryAmount;
+
     }
-    public function set_workingDays($workingDays){
-        
-    }
-    public function getSalaryAmount($totalDays) {
-        return $this-> totalDays;
+
+    function getInfo() {
+        return $this->info;
     }
 }
 
-$salary = new Employee;
+$Employee = new Employee();
 
-
-echo $salary->getworkingHoursPerday();
+$Employee->setinf("join","17slime",8,15,2,25);
+echo $Employee->getInfo();
